@@ -1,0 +1,68 @@
+/* style set applicable to entire page */
+body {
+    font-family: Roboto;
+    margin: 0px;
+}
+
+/* Style for the header section, including the logo, top links, and the section 1 info. Kept that all in the header to use the same background color */
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.section-one-text, .links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+}
+.top-button {
+    background-color: #3882F6;
+    color: #F9FAF8; 
+}
+
+.section-one {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    font-weight: 300;
+}
+
+.header-image {
+    width: 100px;
+    height: 100px;
+}
+
+.section-one-body {
+    display: flex;
+    flex-direction: column;
+}
