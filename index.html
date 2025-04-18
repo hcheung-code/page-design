@@ -2,66 +2,87 @@
  Author: Henry Cheung -->
 
  <!-- Setting up the HTML webpage -->
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- declare the document type -->
+<html lang="en"> <!-- specify the language of the document -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <title>Landing Page</title>
+    <meta charset="UTF-8"> <!-- specify the character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- specify the viewport settings -->
+    <link rel="stylesheet" href="style.css"> <!-- link to the CSS file -->          
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <!-- link to the Google Fonts -->  
+    <title>Landing Page</title> <!-- title of the webpage -->  
 </head>
 
 <!-- Body: Where all the content lives -->
 <body>
-    <div class="header">
-        <div class="header-section">
-            <div class="header-logo">Henry Cheung</div>
-            <div class="links">
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link one</a>
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link two</a>
-                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link three</a>
+    <div class="main-container">
+        <div class="header"> <!-- header section -->
+            <div class="content-container">
+                <div class="header-section"> <!-- header section -->
+                    <div class="header-logo">Henry Cheung</div> <!-- logo -->
+                    <div class="links"> <!-- links -->
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link one</a> <!-- link one -->
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link two</a>
+                        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">header link three</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-one"> <!-- section one -->
+                <div class="content-container">
+                    <div class="section-one-container">
+                        <div class="section-one-body"> <!-- section one body -->
+                            <div class="title">Welcome to my landing page!</div> <!-- title -->
+                            <div class="section-one-text">This website has listed out some of my personal projects and a bit about me!</div> <!-- text -->
+                            <button class="top-button">Sign up</button>    
+                        </div>
+                        <img class="header-image" src="henry-profile.png" alt="portrait photo of me at a balcony wearing all black"> <!-- image -->    
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="section-one">
-            <div class="section-one-body">
-                <div class="title">Welcome to my landing page!</div>
-                <div class="section-one-text">This website has listed out some of my personal projects and a bit about me!</div>
-                <button class="top-button">Sign up</button>    
-            </div>
-            <img class="header-image" src="henry-studio-ghibli.png" alt="portrait photo of me at a balcony wearing all black">
-        </div>
-    </div>
-    <div class="section-two">
-        <div>Projects</div>
-        <div class="projects">
-            <div class="project">
-                <img src="coding-project-1.png" alt="me coding on my desktop computer in my room">
-                <div>this is some subtext under an illustration or image</div>
-            </div>
-            <div class="project">
-                <img src="coding-project-2.png" alt="a girl working on electronics on a breadboard">
-                <div>this is some subtext under an illustration or image</div>
-            </div>
-            <div class="project">
-                <img src="coding-project-3.png" alt="girl developing an app with dual monitors and cat">
-                <div>this is some subtext under an illustration or image</div>
-            </div>
-            <div class="project">
-                <img src="coding-project-4.png" alt="me coding while outside on a park bench behind fireflies and a beautiful sunset">
-                <div>this is some subtext under an illustration or image</div>
+        <div class="section-two"> <!-- section two -->
+            <div class="content-container">
+                <div class="section-two-title">My Projects</div> <!-- projects -->
+                <div class="projects"> <!-- projects -->
+                    <div class="project"> <!-- project -->
+                    <img class="square-image" src="coding-project-1.png" alt="me coding on my desktop computer in my room"> <!-- image -->
+                    <div class="caption">this is some subtext under an illustration or image</div> <!-- text -->
+                    </div>
+                <div class="project"> <!-- project -->
+                    <img class="square-image" src="coding-project-2.png" alt="a girl working on electronics on a breadboard"> <!-- image -->
+                    <div class="caption">this is some subtext under an illustration or image</div> <!-- text -->
+                    </div>
+                <div class="project"> <!-- project -->
+                    <img class="square-image" src="coding-project-3.png" alt="girl developing an app with dual monitors and cat"> <!-- image -->
+                    <div class="caption">this is some subtext under an illustration or image</div> <!-- text -->
+                    </div>
+                <div class="project"> <!-- project -->
+                    <img class="square-image" src="coding-project-4.png" alt="me coding while outside on a park bench behind fireflies and a beautiful sunset"> <!-- image -->
+                    <div class="caption">this is some subtext under an illustration or image</div> <!-- text -->    
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="section-three"> <!-- section three -->
+            <div class="content-container">
+                <div class="section-three-content">
+                    <div class="quote">"Far and away the best prize that life has to offer is the chace to work hard at work worth doing."</div> <!-- quote -->
+                    <div class="author">-Theodore Roosevelt</div> <!-- author -->    
+                </div>
+            </div>
+        </div>
+        <div class="section-four"> <!-- section four -->
+            <div class="content-container">
+                <div class="call-to-action">
+                    <div class="call-to-action-text">
+                        <div class="call-to-action-title">Call to action! It's time!</div> <!-- text -->
+                        <div class="call-to-action-body">Sign up for updates by clicking that button right over there!</div> <!-- text -->    
+    
+                    </div>
+                    <button class="bottom-button">Sign up</button> <!-- button -->
+                </div>
+            </div>
+        </div>
+        <div class="footer">Copyright &copy; Henry Cheung 2025</div> <!-- footer -->    
     </div>
-    <div class="section-three">
-        <div class="quote">"Far and away the best prize that life has to offer is the chace to work hard at work worth doing."</div>
-        <div class="author">-Theodore Roosevelt</div>
-    </div>
-    <div class="section-four">
-        <div>Call to action! It's time!</div>
-        <div>Sign up for updates by clicking that button right over there!</div>
-        <button class="bottom-button">Sign up</button>
-    </div>
-    <div class="footer">Copyright &copy; The Odin Project 2021</div>
 </body>
 </html>
